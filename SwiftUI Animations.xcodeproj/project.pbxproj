@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D88A04B32E35F33000D0663E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D88A04B22E35F32C00D0663E /* README.md */; };
+		D8CDB3402E35F40A009CA554 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D8CDB33F2E35F40A009CA554 /* LICENSE.txt */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D88A04972E3525E100D0663E /* SwiftUI Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88A04B22E35F32C00D0663E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D8CDB33F2E35F40A009CA554 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		D88A048E2E3525E100D0663E = {
 			isa = PBXGroup;
 			children = (
+				D88A04B22E35F32C00D0663E /* README.md */,
+				D8CDB33F2E35F40A009CA554 /* LICENSE.txt */,
 				D88A04992E3525E100D0663E /* SwiftUI Animations */,
 				D88A04982E3525E100D0663E /* Products */,
 			);
@@ -109,6 +118,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8CDB3402E35F40A009CA554 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D88A04B32E35F33000D0663E /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
